@@ -1,0 +1,33 @@
+{
+  "name": "roe",
+  "description": "Lean developer tool for dealing with Apache Avro",
+  "version": "1.0.0",
+  "main": "bin/cli.js",
+  "bin": {
+    "roe": "./bin/cli.js"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grothesk/avro-tool-kit.git"
+  },
+  "keywords": [
+    "avro",
+    "tool",
+    "node",
+    "cli"
+  ],
+  "author": "Malte Groth",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/grothesk/avro-tool-kit/issues"
+  },
+  "homepage": "https://github.com/grothesk/avro-tool-kit#readme",
+  "dependencies": {
+    "avsc": "^5.7.0",
+    "yargs": "^17.0.1"
+  }
+}
